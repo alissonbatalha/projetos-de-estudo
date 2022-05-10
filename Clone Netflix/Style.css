@@ -1,0 +1,257 @@
+* {
+     margin:0;
+     padding:0;
+ }
+
+
+body {
+    background-color:black;
+}
+
+/* header*/
+header {
+    background-image:url('fundo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:black;
+    width:100%;
+    padding:20px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+    width: 28%;
+    max-width: 140px;
+}
+
+nav  {
+    font-size:20px;
+    float: right;
+}
+
+.idioma {
+    background-color: black;
+    color:white;
+    font-size: 0.8em;
+    padding:5px 15px;
+    margin:0 5px 0;
+}
+
+.entrar {
+    background-color:red;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    text-decoration:none;
+    margin: 0 5px 0;
+}
+
+.parte1 {
+    text-align:center;
+    color: white;
+    height: 50%;
+}
+
+.parte1 p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.email {
+    position:relative;
+    margin:10px 0;
+    padding:15px 5px;
+    width:80%;
+    border-radius: 5px;
+}
+
+.vamosla {
+    background-color:red;
+    color:white;
+    padding:15px 30px;
+    border-radius:5px;
+    text-decoration:none;
+    margin:20px 0;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* main */
+.parte2 {
+    text-align:center;
+    color: white;
+    height: 80%;
+}
+
+.parte2 p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.tv {
+    width:90%;
+    max-width: 600px;
+}
+
+.parte3 {
+    text-align:center;
+    color: white;
+    height: 80%;
+}
+
+.parte3 p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.eleven {
+    width:80%;
+    max-width: 600px;
+}
+
+.parte4 {
+    text-align:center;
+    color: white;
+    height: 80%;
+}
+
+.parte4 p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.dispositivos {
+    width:90%;
+    max-width: 600px;
+}
+
+.parte5 {
+    text-align:center;
+    color: white;
+    height: 80%;
+}
+
+.parte5 p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.infantil {
+    width:90%;
+    max-width:600px ;
+}
+
+.perguntas-frequentes {
+    text-align:center;
+    color: white;
+    height: 80%;
+}
+
+.pergunta {
+    background-color: #161616;
+    display:inline-block;
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: left;
+    border:none;
+    margin: 5px 0 5px 0;
+}
+
+
+pergunta h1 {
+    margin-left: 10px;
+}
+
+.resposta {
+    display:none;
+    background-color: #161616;
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.resposta p {
+    width: 90%;
+    text-align:left;
+}
+
+#pergunta1:focus ~ #resposta1 {
+    display:inline-block;,
+}
+
+#pergunta2:focus ~ #resposta2 {
+    display:inline-block;
+}
+
+#pergunta3:focus ~ #resposta3 {
+    display:inline-block;
+}
+
+#pergunta4:focus ~ #resposta4 {
+    display:inline-block;
+}
+
+#pergunta5:focus ~ #resposta5 {
+    display:inline-block;
+}
+
+#pergunta6:focus ~ #resposta6 {
+    display:inline-block;
+}
+
+.parte6 {
+    text-align:center;
+    color: white;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.parte6 p {
+    font-size: 25px;
+    margin: 0 10px;
+}
+    
+/* footer */
+footer > h3 {
+    color: darkgrey;
+    text-align:center;
+    margin: 20px 0 20px 0;
+}
+
+footer > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer > ul > li {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer  a {
+    text-decoration: none;
+    color:darkgrey;
+    margin: 10px 0 10px 0;
+   /* margin-bottom: 20px;*/
+} 
+
+.idioma2 {
+    background-color: black;
+    color:grey;
+    font-size: 1.1em;
+    padding:15px 15px;
+    margin:20px 0 20px 20px;
+}
+
+.fim {
+    font-size: 1em;
+    color:darkgrey;
+    margin: 15px 0 20px 25px;
+}

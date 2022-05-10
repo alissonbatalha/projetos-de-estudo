@@ -1,0 +1,138 @@
+
+/* configurações globais da página*/
+* {
+    
+}
+
+body {
+    background-color: white;
+}
+
+/* cabeçalho */
+
+header {
+    background-color: #bbbbbb;
+    padding: 15% 0 ;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 120px;
+    max-height: 500px;
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+    margin-left: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right:25px;
+}
+
+nav li {
+  display: inline-block; 
+  margin:0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration:none;
+}
+
+nav a:hover {
+    text-decoration:underline ;
+    font-size: 1.2em;
+    color:#ffd400;
+}
+
+/* conteúdo principal da página */
+
+#principal {
+    background-color: white;
+}
+
+.banner {
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+#principal h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px auto;
+}
+
+.sobre {
+    font-size: 1.2em;
+    margin: 10px auto;
+}
+
+.sobre strong{
+    color: red;
+}
+
+#sessao {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#beneficios > h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#beneficios ul {
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 0%;
+    margin-bottom: 50px;
+}
+
+#beneficios ul li {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#imgbeneficios {
+    width: 60%;
+    margin-left: 40px;
+    max-width: 220px;
+    display: inline-block;
+}
+
+/* rodapé da página  */
+
+footer {
+    text-align:center;
+    background: url("bg.jpg");
+    padding: 40px 0 ;
+}
+
+footer p {
+   color:#ffffff;
+   margin: 20px 0 0;
+   font-size: 1em;
+}

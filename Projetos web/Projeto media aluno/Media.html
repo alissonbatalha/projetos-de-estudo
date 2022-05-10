@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio aula 12</title>
+        <link rel="stylesheet" href="media.css" type="text/css" media="all" />
+        <script src="media.js" type="text/javascript" charset="utf-8">
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>ANALISADOR DE MEDIA</h1>
+        </header>
+        <section>
+            <div>
+                <label>Nome:</label>
+                <input type="name" id="txtnome" name="txtnome">
+                <br />
+                <label>RA:</label>
+                <input type="number" maxlenght="4" id="txtra" name="txtra"><br />
+                <label>Senha:</label>
+                <input type="password" id="txtsenha" name="txtsenha">
+            </div>
+            <br />
+            <div>
+                <label>Nota 1:</label>
+                <input type="number" id="txtnota1" name="txtnota1"><br />
+                <label>Nota 2:</label>
+                <input type="number" id="txtnota2" name="txynota2"><br />
+                <label>Nota 3:</label>
+                <input type="number" id="txtnota3" name="txtnota3">
+                 <button type="submit" ontouchstart ="calcular()">Calcular</button>
+            </div>
+            <div>
+               <fieldset id="resposta">
+                   <p id="resp"></p>
+                   <p id="res"></p>
+                   <p id="situacao"></p>
+               </fieldset>        
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Batalha Developer </p>
+        </footer>
+    </body>
+</html>

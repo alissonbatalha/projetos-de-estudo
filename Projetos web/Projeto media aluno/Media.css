@@ -1,0 +1,78 @@
+body {
+    background-image:linear-gradient(#43cbff, #9708cc);
+    font:normal 20px arial;
+    background-attachment:fixed;
+}
+
+header {
+    text-align:center;
+    color:white;
+}
+
+section {
+  text-align:;
+  background:white;
+  border-radius:10px;
+  margin:auto;
+  padding:15px;
+  width:350px;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.363);
+}
+
+footer{
+    text-align:center; 
+    color:white;
+    font-style:italic ;
+}
+
+div {
+    margin-top:;
+}
+
+#txtra {
+    margin-left:7%;
+}
+
+input {
+    margin-top:3%;
+    border-radius:5px;
+}
+
+button {
+    display: block;
+    margin:20px auto;
+    padding:15px 60px;
+    border-radius: 5px;
+}
+
+#res {
+    margin-top:10%;
+}
+
+#resposta {
+    text-align:center;
+    background:white;
+    border-radius:10px;
+    margin-top:10%;
+    padding:15px;
+    width:90%;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.363);
+}
+
+fieldset {
+    margin-top:10%;
+    border-radius:5px;
+}
+
+#situacao {
+    text-align:center;
+}
+
+#resp {
+    text-align:center;
+    font:bold 15px sans-serif;
+    margin-top:4%;
+    margin-bottom:4%;
+    color:blue;
+    border-radius:5px;
+}
