@@ -1,0 +1,213 @@
+:root {
+  --fundo-principal: #051932;
+  --fundo-login: #072348;
+  --botao: #A3FFC0;
+  --contorno-azul: #1C3E73;
+  --contorno-vermelho: #6E404D;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* configurações mobile first */
+
+body {
+  background-color: var(--fundo-principal);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho__logo {
+  margin: 20px ;
+  
+  width: 80px;
+
+  color: white;
+}
+
+.cabecalho__botao {
+  margin: 20px;
+  
+  background-color: var(--botao);
+  
+  padding: 2px 40px;
+  
+  border: none;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  font-style: arial;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.principal {
+  width: 97%;
+  height: 600px;
+  
+  background-image: linear-gradient(to right, #082D5C, #072348);
+  
+  margin:60px auto;
+  
+  border: 2px solid var(--contorno-azul);
+  border-radius: 5px;
+}
+
+.login {
+  
+}
+
+.login__titulo {
+  color: white; 
+  
+  text-align: center;
+  font-size: 2.5em;
+  
+  margin: 25px auto 5px;
+  
+  width: 70%;
+}
+
+.login__paragrafo {
+  color: white;
+  text-align: center;
+  
+  margin-bottom: 20px;
+}
+
+.label {
+  color: white;
+  
+  font-weight: bold;
+  font-size: 1em;
+  
+  margin-left: 50px;
+}
+
+.login__input {
+  padding: 15px 0;
+  
+  background-color: var(--fundo-principal);
+  
+  border: none;
+  border-radius: 5px;
+  
+  margin: 3px auto 10px;
+  
+  display: block;
+  
+  width: 75%;
+  
+  color:white;
+  font-size: 1em;
+}
+
+.login__input:hover {
+  border: 2.5px solid var(--contorno-azul);
+}
+
+.login__botao--entrar {
+  display: block;
+  
+  background-color: var(--botao);
+  
+  padding: 15px 0;
+  
+  margin: 30px auto 10px;
+  
+  border: none;
+  border-radius: 25px;
+  
+  width: 75%;
+  
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.login__botao--facebook {
+  display: block;
+  
+  background-color: transparent;
+  
+  padding: 15px 0;
+  
+  margin: 10px auto 10px;
+  
+  border: 2.5px solid var(--contorno-azul);
+  border-radius: 25px;
+  
+  width: 75%;
+  
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+}
+.login__botao--google {
+  display: block;
+  
+  background-color: transparent;
+  
+  padding: 15px 0;
+  
+  margin: 10px auto 40px;
+  
+  border: 2.5px solid var(--contorno-vermelho);
+  border-radius: 25px;
+  
+  width: 75%;
+  
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+.login__link {
+  text-align: center;
+  color: white;
+  
+  margin: 20px auto;
+}
+
+/* tablet */ 
+
+@media screen and (min-width:768px) {
+  .principal {
+    width:60%;
+    height: 700px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login {
+    width:80%;
+  }
+ 
+  .label {
+    margin-left: 50px;
+  }
+}
+
+/* notebook/pc */
+@media screen and (min-width:1024px) {
+  .label {
+    margin-left: 73px;
+  }
+}
+
+
