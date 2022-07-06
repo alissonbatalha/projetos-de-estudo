@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family:'Android';
-	src: url('projetominisitecursoemvideo/idroid.otf') format:(opentype);
+	src: url('./idroid.otf') format:('opentype');
 	font-weight:normal;
 } 
 
@@ -17,7 +17,6 @@
 	--cor3: #2fa866;
 	--cor4: #1a5c37;
 	--cor5: #063d13;
-	
 	--fonte-padrao: arial, verdana, helvetica, sans-serif;
 	--fonte-destaque:'Texturina', serif;
 	--fonte-android: 'Android', cursive;
@@ -61,7 +60,7 @@ header {
 
 header > h1 {
 	  color:white;
-    font-family:star-wars;
+    font-family:var(--fonte-android);
     font-size: 2.5em;
     margin-bottom: 20px;
     text-shadow:rgba(0,0,0,0.297);
@@ -129,7 +128,7 @@ main a:hover {
 }
 
 main h1 {
-	font-family:star-wars, serif;
+	font-family:var(--fonte-destaque);
 	background-image: linear-gradient(to right, green, transparent);
 	color: white;
 	font-size: 1.3em;
@@ -137,7 +136,7 @@ main h1 {
 }
 
 main h2 {
-	font-family:star-wars, serif;
+	font-family:var(--fonte-destaque), serif;
 	background-image: linear-gradient(to right, green, transparent);
 	color: white;
 	font-size: 1.3em;
